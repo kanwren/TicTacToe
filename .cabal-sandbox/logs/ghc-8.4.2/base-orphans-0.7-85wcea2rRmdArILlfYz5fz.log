@@ -1,0 +1,4 @@
+Installing library in C:\Users\nprin\TicTacToe\.cabal-sandbox\x86_64-windows-ghc-8.4.2\base-orphans-0.7-85wcea2rRmdArILlfYz5fz
+\Data\Orphans.hs, dist\dist-sandbox-7f9d0556\build\Data\Orphans.o )
+[2 of 2] Compiling Data.Orphans.Prelude ( src\Data\Orphans\Prelude.hs, dist\dist-sandbox-7f9d0556\build\Data\Orphans\Prelude.o )
+cabal: Leaving directory 'C:\Users\nprin\AppData\Local\Temp\cabal-tmp-1258\base-orphans-0.7'
