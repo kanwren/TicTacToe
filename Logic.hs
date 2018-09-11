@@ -52,9 +52,11 @@ isAvailable :: (Int, Int) -> Game -> Bool
 isAvailable c game = let gameBoard = game ^. board in isNothing $ gameBoard ! c
 
 handleEvents (EventKey (MouseButton LeftButton) Up _ mouse) game
-    | game ^. state /= GameRunning = game & board .~ emptyBoard
-                                          & turn .~ PlayerX
-                                          & state .~ GameRunning
+    | game ^. state /= GameRunning = let p = nextPlayer (game ^. initPlayer)
+        in game & board      .~ emptyBoard
+                & turn       .~ p
+                & state      .~ GameRunning
+                & initPlayer .~ p
     | otherwise = if validBoardCoord boardCoord && isAvailable boardCoord game
                     then placeXO boardCoord game else game
     where boardCoord = screenToBoardCoord mouse
