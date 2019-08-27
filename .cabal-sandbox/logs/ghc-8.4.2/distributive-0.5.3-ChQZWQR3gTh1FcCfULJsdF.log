@@ -1,6 +1,0 @@
-Installing library in C:\Users\nprin\TicTacToe\.cabal-sandbox\x86_64-windows-ghc-8.4.2\distributive-0.5.3-ChQZWQR3gTh1FcCfULJsdF
-src\Data\Distributive.hs, dist\dist-sandbox-7f9d0556\build\Data\Distributive.o )
-[2 of 2] Compiling Data.Distributive.Generic ( src\Data\Distributive\Generic.hs, dist\dist-sandbox-7f9d0556\build\Data\Distributive\Generic.o )
-Linking C:\Users\nprin\AppData\Local\Temp\cabal-tmp-1256\distributive-0.5.3\dist/dist-sandbox-7f9d0556\setup\setup.exe ...
-Configuring distributive-0.5.3...
-cabal: Leaving directory 'C:\Users\nprin\AppData\Local\Temp\cabal-tmp-1256\distributive-0.5.3'
